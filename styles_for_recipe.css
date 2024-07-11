@@ -51,12 +51,22 @@ main{
     color:  hsl(24, 5%, 18%);
 }
 
-ul{
+ul, .list{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
+
+ol {counter-reset: item;}
+ol li {display: block;}
+ol li:before {
+    content: counter(item) ". "; 
+    counter-increment: item; 
+    font-weight: bold;
+    margin-right: 10px;
+}
+
 
 
 
