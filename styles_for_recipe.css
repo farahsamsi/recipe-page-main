@@ -21,8 +21,6 @@
 body{
     background-color: hsl(30, 54%, 90%);
     max-width: 1440px;
-
-    border: 5px solid blue;
 }
 
 section{
@@ -35,13 +33,15 @@ main{
     border-radius: 10px;
     padding: 30px;
     background-color: hsl(0, 0%, 100%);
-
-    border: 5px solid red;
 }
 
 /* shared styles */
 .description{
-    
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    text-align: justify;
+
+    border: 5px solid orange;
 }
 
 .banner-image-container{
@@ -50,6 +50,32 @@ main{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+}
 
-    border: 5px solid green;
+#title h1{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+    margin-bottom: 10px;
+}
+
+.time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.time h3{
+    color: hsl(30, 10%, 34%);
+    font-size: 32px;
+    font-family: "Outfit", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.time ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
 }
