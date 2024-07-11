@@ -40,10 +40,27 @@ main{
     font-family: "Outfit", sans-serif;
     color: hsl(30, 10%, 34%);
     text-align: justify;
-
-    border: 5px solid orange;
+/* 
+    border: 5px solid orange; */
 }
 
+.section-title{
+    font-size: 34px;
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+    color:  hsl(24, 5%, 18%);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+
+
+/* banner */
 .banner-image-container{
     width: 100%;
     height: fit-content;
@@ -73,7 +90,7 @@ main{
     margin: 0;
 }
 
-.time ul{
+ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
