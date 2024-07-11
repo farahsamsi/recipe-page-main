@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/* font-family: "Young Serif", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/*  font-family: "Outfit", sans-serif; */
+
+/* - White: hsl(0, 0%, 100%)
+- Rose White: hsl(330, 100%, 98%)
+- Eggshell: hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%) */
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* body */
+body{
+    background-color: hsl(30, 54%, 90%);
+    max-width: 1440px;
+
+    border: 5px solid blue;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+main{
+    width: 60%;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+
+    border: 5px solid red;
+}
+
+/* shared styles */
+.description{
+    
+}
+
+.banner-image-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    border: 5px solid green;
+}
